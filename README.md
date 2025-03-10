@@ -1,8 +1,6 @@
-# Adyen Test Cards Chrome extension
+# Adyen Test Cards Firefox extension
 
-[A Chrome extension](https://chrome.google.com/webstore/detail/adyen-test-cards/icllkfleeahmemjgoibajcmeoehkeoag) allowing to copy and prefill Adyen test card numbers with a single click. 
-
-Check also our [video](https://www.youtube.com/watch?v=INDxpfjnAnE&t=1s) to learn how to install and use it.
+Ported from the already created chrome extension. Instead of opening in the side bar this opens in the side panel.
 
 ![Browser extension image](browser-extension.gif)
 
@@ -16,11 +14,6 @@ This Chrome extension brings those test card numbers directly into your browser 
 
 ### Installation
 
-#### Installing from Chrome Web Store
-
-1. Find the extension in the [Chrome Web Store](https://chrome.google.com/webstore/detail/adyen-test-cards/icllkfleeahmemjgoibajcmeoehkeoag)
-2. Click "Add to Chrome"
-
 The installation will warn that the extension can read and write data on all websites:
 
 ![Chrome Web Store message](chrome-store-popup.png)
@@ -31,10 +24,12 @@ This is necessary as we do not know where your integration is hosted. The Adyen 
 
 #### Installing from source
 
-1. Go to the Extensions page by entering `chrome://extensions` in a new tab.
+1. Go to the Extensions page by entering `about:addons` in a new tab.
 2. Enable Developer Mode.
-3. Click the "Load unpacked" button and select the extension directory.
+3. Download the zip from the downloads
+3. Click the "Install Add-on From File..." button and select the extension zip.
 
+You can also create the zip from the files here yourself.
 
 ### Usage
 
